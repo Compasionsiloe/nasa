@@ -46,10 +46,12 @@ header {
     color: #fff;
     font-size: 24px;
     text-align: center;
+    border-radius: 10%;
+    background-color: #3f3e3e;
 }
 
 .seccion2 {
-    padding: 200px;
+    padding: 20px;
     
 }
 
@@ -65,7 +67,8 @@ header {
 .foto {
     width: 60%;
     display: flex;
-    
+    text-align: left;
+
     
 }
 
@@ -73,7 +76,7 @@ header {
     width: 1000px;
     height: 500px;
     object-fit: cover;
-    
+    margin-left: 15%;
 }
 
 .seccion3 {
@@ -135,4 +138,18 @@ header {
 }
 
 /* Responsividad */
-@media (max-width: 768px)
+
+        @media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+    nav {
+        padding: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+}
